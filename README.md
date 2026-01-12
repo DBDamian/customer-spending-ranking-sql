@@ -27,3 +27,6 @@ GROUP BY
 Common Table Expressions (CTEs)
 
 Window functions: RANK() OVER (PARTITION BY ...)
+
+📂 SQL scripts are located in the /sql directory.
+
