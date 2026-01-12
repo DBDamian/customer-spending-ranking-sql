@@ -1,3 +1,4 @@
+-- Step 1: Calculate total spending per customer
 WITH customer_totals AS (
     SELECT
         c.customer_id,
@@ -12,6 +13,7 @@ WITH customer_totals AS (
         c.name,
         c.country
 ),
+-- Step 2: Rank customers by spending within each country
 ranked_customers AS (
     SELECT
         customer_id,
